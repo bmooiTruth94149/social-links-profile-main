@@ -1,0 +1,28 @@
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* .attribution a:visited{
+    color: black;
+} */
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.shell{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+button{
+   background-color: hsl(0, 0%, 20%); 
+}
