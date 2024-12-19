@@ -14,8 +14,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/bmooiTruth94149/social-links-profile-main)
-- Live Site URL: [](https://bmooitruth94149.github.io/social-links-profile-main/)
+- Solution URL: [github](https://github.com/bmooiTruth94149/social-links-profile-main)
+- Live Site URL: [github page](https://bmooitruth94149.github.io/social-links-profile-main/)
 
 ## My process
 
@@ -56,7 +54,10 @@ body{
 
 ### Continued development
 
-- stay focus in CSS grid y other display methods and get better HTML structure.
+stay focus:
+- CSS grid
+- Other display methods
+- better HTML structure.
 
 
 ## Author
