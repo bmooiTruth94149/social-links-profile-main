@@ -3,32 +3,35 @@
     src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
-
-
-/* .attribution a:visited{
-    color: black;
-} */
+html,body{ /*very important*/
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 body{
+    height: 100vh;
     background-color: hsl(0, 0%, 8%);
     font-size: 14px;
-    padding: 10px;
-    margin: 7.5px;
     color: hsl(0, 0%, 100%);
+    position: relative;
 }
-.avatar{
-    display: block;
+main{
+    height: 100%;
+    display: grid;
 }
 
-.shell{
-    min-width: 260px;
-    max-width: 300px;
+.container{
+    width: 340px;
+    justify-self: center ;
+    align-self: center;
     background-color: hsl(0, 0%, 12%);
-    padding: 40px;
-    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-radius: 15px;
 }
 
 .avatar{
+    display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
@@ -57,27 +60,40 @@ p{
 
 
 button{
-    display: inline-block;
-    width: 100%;
-    background-color: hsl(0, 0%, 20%); 
-    color:hsl(0, 0%, 100%);
+    display: block;
+    width: 81%;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
+    font-weight: 600;
 }
 
 button:hover{
     background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+
+.container a{
+    text-decoration: none;
 }
 
 /* Atributions */
 
 .attribution {
-    font-size: 11px; text-align: center;
-    margin-top: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    font-size: 11px;
+    text-align: center;
+    align-self: baseline;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
