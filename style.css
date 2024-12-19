@@ -86,6 +86,10 @@ button:hover{
 
 /* Atributions */
 
+footer{
+    width: 100%;
+}
+
 .attribution {
     position: absolute;
     bottom: 10px;
@@ -97,4 +101,8 @@ button:hover{
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: hsl(75, 94%, 57%)
 }
