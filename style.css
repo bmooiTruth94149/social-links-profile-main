@@ -1,28 +1,84 @@
-.attribution {
-    font-size: 11px; text-align: center;
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
+
+
 
 /* .attribution a:visited{
     color: black;
 } */
 body{
     background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    padding: 10px;
+    margin: 7.5px;
+    color: hsl(0, 0%, 100%);
+}
+.avatar{
+    display: block;
 }
 
 .shell{
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+    min-width: 260px;
+    max-width: 300px;
     background-color: hsl(0, 0%, 12%);
+    padding: 40px;
+    margin: auto;
+    border-radius: 15px;
 }
 
 .avatar{
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
+    width: 100px;
 }
 
+h1, h3, p{
+    text-align: center;
+    font-family: Inter;
+}
+
+h1{
+    font-weight: 700;
+}
+
+h3{
+    font-weight: 600;
+    margin-top: -10px;
+    color: hsl(75, 94%, 57%);
+}
+
+p{
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+
 button{
-   background-color: hsl(0, 0%, 20%); 
+    display: inline-block;
+    width: 100%;
+    background-color: hsl(0, 0%, 20%); 
+    color:hsl(0, 0%, 100%);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+/* Atributions */
+
+.attribution {
+    font-size: 11px; text-align: center;
+    margin-top: 20px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
